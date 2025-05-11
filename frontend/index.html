@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phonography Studio | Official Website</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Tipografía -->
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="assets/logo.png" type="image/png">
+</head>
+
+<body>
+
+  <!-- Menú -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="assets/logo.png" alt="Phonography Studio">
+      </a>
+      <div class="collapse navbar-collapse justify-content-end">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#estudio">Estudio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipo">Equipo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tarifas">Tarifas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero position-relative overflow-hidden">
+    <video autoplay muted loop playsinline class="hero-video">
+      <source src="assets/videos/vinilo.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de vídeo.
+    </video>
+    <div class="hero-content position-relative z-1 text-center">
+      <h1>Bienvenidos a Phonography Studio</h1>
+    </div>
+  </section>
+
+  <!-- Secciones -->
+  <section id="estudio" class="section position-relative" style="scroll-margin-top: 0;">
+    <div class="carousel-fullscreen mb-5 position-relative">
+      <div class="section-title-overlay">
+        <h2>Estudio</h2>
+      </div>
+      <div id="carruselEstudio" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/fotos-carrusel/estudio/estudio1.jpg" class="d-block w-100" alt="Foto 1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fotos-carrusel/estudio/estudio2.jpg" class="d-block w-100" alt="Foto 2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fotos-carrusel/estudio/estudio3.jpg" class="d-block w-100" alt="Foto 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselEstudio" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselEstudio" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <h3 class="subtitulo-espaciado text-center fw-bold mb-5">
+      Espacios diseñados para capturar el alma de cada proyecto.<br>
+      Acústica profesional, ambiente íntimo, resultados auténticos.
+    </h3>
+
+    <!-- Descripción -->
+    <p>
+      El estudio consta de un recibidor, seguido de una sala de grabación de 4 m² compuesta por paredes de 8 cm de
+      aislamiento acústico (4 cm de copopren + 4 cm de lana de roca),
+      techo flotante de 4 cm de lana de roca, techo de placas de yeso microperforadas con lana mineral en su interior,
+      manta de lana de roca de 4 cm y una cámara de 1 m de altura hasta el techo estructural.
+    </p>
+    <p>
+      Cuenta con una pequeña cocina equipada con lo esencial para el día a día: cafetera, kettle, horno, microondas y
+      nevera.
+    </p>
+    <p class="mb-5">
+      El control room tiene unas dimensiones de unos 40 m², equipado con todo lo necesario para el confort del cliente:
+      sofá chesterfield, TV, tocadiscos, etc.
+    </p>
+  </section>
+
+
+  <section id="equipo" class="section position-relative" style="scroll-margin-top: 0;">
+    <div class="carousel-fullscreen mb-5 position-relative">
+      <div class="section-title-overlay">
+        <h2>Equipo</h2>
+      </div>
+      <div id="carruselEquipo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner rounded overflow-hidden">
+          <div class="carousel-item active">
+            <img src="assets/fotos-carrusel/equipo/equipo1.jpg" class="d-block w-100" alt="Micrófonos">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fotos-carrusel/equipo/equipo2.jpg" class="d-block w-100" alt="Pedales y amplificadores">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/fotos-carrusel/equipo/equipo3.jpg" class="d-block w-100" alt="Guitarras y bajo">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselEquipo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselEquipo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    <h3 class="subtitulo-espaciado text-center fw-bold mb-5">
+      Micrófonos clásicos, amplificadores con alma, guitarras con historia y accesorios que elevan cada toma.<br>
+      Tu sonido merece carácter.
+    </h3>
+
+    <div class="container text-start">
+
+      <!-- Fila 1 -->
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Microfonía</h5>
+          <ul>
+            <li>Shure BETA 91A</li>
+            <li>Audix i5</li>
+            <li>2x Sennheiser e904</li>
+            <li>2x Lewitt LCT 040 MATCH</li>
+            <li>2x Aston Microphones Origin</li>
+            <li>the t.bone RB 500</li>
+            <li>the t.bone SCT-2000</li>
+            <li>2x Shure SM7B</li>
+            <li>Shure SM58</li>
+            <li>Superlux PRA 628 MKII</li>
+            <li>Moth Mic DLX</li>
+            <li>Superlux D112C</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Pedales</h5>
+          <ul>
+            <li>TC Electronic Polytune Black Noir</li>
+            <li>M3 GuitarWorks Fuzz</li>
+            <li>J.Rockett Audio Designs Archer</li>
+            <li>Fulltone Full-Drive 2 Mosfet</li>
+            <li>Walrus Audio Iron Horse</li>
+            <li>Catalinbread Super Chill Picoso</li>
+            <li>Digitech Whammy DT</li>
+            <li>Strymon Blue Sky</li>
+            <li>Demonfx Microtubes D7K Ultra</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Amplificadores</h5>
+          <ul>
+            <li>Vox AC30 C2X Blue Bulldog</li>
+            <li>Vox AC15 C1 Creamback Limited</li>
+            <li>Marshall JCM 2000</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fila 2 -->
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Guitarras</h5>
+          <ul>
+            <li>Gibson Les Paul Custom</li>
+            <li>Fender 52' Telecaster 2014 reissue</li>
+            <li>Ibanez GRG170DX</li>
+            <li>Fender Sonoran California</li>
+            <li>Harley Benton CG-45 NS</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Bajo</h5>
+          <ul>
+            <li>Squier CV 70s Jazz Bass</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Monitores y Accesorios</h5>
+          <ul>
+            <li>Yamaha HS7</li>
+            <li>2x KZ ZSN PRO</li>
+            <li>Superlux HD-660</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Fila 3 -->
+      <div class="row mb-5">
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Interface</h5>
+          <ul>
+            <li>Behringer XR18</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h5 class="text-uppercase text-warning">Cableado</h5>
+          <ul>
+            <li>Monster Rock Cable</li>
+            <li>Spectraflex Fatso Flex Cables</li>
+            <li>Sommer Cable The Spirit XXL</li>
+            <li>Sommer Cable Stage 22</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+            <h5 class="text-uppercase text-warning">Extras</h5>
+            <ul>
+              <li>Klark Teknik DI 10A</li>
+              <li>Klark Teknik DI 20P</li>
+            </ul>
+        </div>
+      </div>
+  </section>
+
+
+  <section id="servicios" class="section p-0" style="scroll-margin-top: 0;">
+    <div class="mockup-header position-relative">
+      <img src="assets/mockups/servicios.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Servicios">
+      <div class="section-title-overlay">
+        <h2>Servicios</h2>
+      </div>
+    </div>
+
+    <!-- Punto real de anclaje -->
+    <div id="servicios-contenido" class="container mt-5">
+      <div class="row justify-content-center text-center g-4">
+
+        <!-- Producción -->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-sliders"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Producción</h5>
+          <p>Te acompañamos desde la idea inicial hasta el sonido final, definiendo la estética de cada proyecto con
+            identidad.</p>
+        </div>
+
+        <!-- Grabación -->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-mic-fill"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Grabación</h5>
+          <p>Capturamos tu interpretación en las mejores condiciones acústicas, con microfonía profesional y trato
+            personalizado.</p>
+        </div>
+
+        <!-- Edición -->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-scissors"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Edición</h5>
+          <p>Corrige, afina, recorta y ajusta. Preparamos cada pista para que esté perfecta antes de mezclar o
+            masterizar.</p>
+        </div>
+
+        <!-- Mezcla -->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-volume-up-fill"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Mezcla</h5>
+          <p>Damos equilibrio, espacio y carácter a tu proyecto. La mezcla es donde todo cobra vida y sentido.</p>
+        </div>
+
+        <!-- Mastering -->
+        <div class="col-md-6 col-lg-4">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-vinyl"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Mastering</h5>
+          <p>Volumen, coherencia y profundidad. Preparamos tu proyecto para todas las plataformas y formatos finales.
+          </p>
+        </div>
+
+        <!-- Podcast -->
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="text-warning mb-3" style="font-size: 2rem;">
+            <i class="bi bi-broadcast"></i>
+          </div>
+          <h5 class="text-warning text-uppercase">Podcast</h5>
+          <p>Grabamos podcasts en audio y vídeo, con calidad profesional y ambientación que potencia tu mensaje.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="tarifas" class="section p-0" style="scroll-margin-top: 0;">
+    <div class="mockup-header position-relative">
+      <img src="assets/mockups/tarifas.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Tarifas">
+      <div class="section-title-overlay">
+        <h2>Tarifas</h2>
+      </div>
+    </div>
+
+    <!-- Punto real de anclaje -->
+    <div id="tarifas-contenido" class="container mt-5">
+      <div class="row justify-content-center text-center">
+
+        <!-- Estudio -->
+        <div class="col-md-4 mb-3">
+          <div class="border rounded p-3 bg-dark text-light shadow text-center small">
+            <h5 class="text-warning mb-3">Alquiler Estudio</h5>
+            <p class="text-center">Día completo (8h) con técnico: <span class="text-success fw-bold">160 €</span></p>
+            <p class="text-center">Hora suelta con técnico: <span class="text-success fw-bold">20 €</span></p>
+          </div>
+        </div>
+
+        <!-- Mezcla -->
+        <div class="col-md-4 mb-3">
+          <div class="border rounded p-3 bg-dark text-light shadow text-center small">
+            <h5 class="text-warning mb-3">Mezcla</h5>
+            <p class="text-center">Por tema: <span class="text-success fw-bold">100 €</span></p>
+            <p class="fst-italic text-light text-center">* Incluye hasta 3 revisiones</p>
+          </div>
+        </div>
+
+        <!-- Mastering -->
+        <div class="col-md-4 mb-3">
+          <div class="border rounded p-3 bg-dark text-light shadow text-center small">
+            <h5 class="text-warning mb-3">Mastering</h5>
+            <p class="text-center">Por tema: <span class="text-success fw-bold">25 €</span></p>
+            <p class="fst-italic text-light text-center">* Incluye hasta 3 revisiones</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contacto" class="section">
+    <div id="contacto-formulario">
+    <h2>Contacto</h2>
+    <h3 class="text-center fw-bold mb-5" style="font-size: 1.6rem; color: #fae2b8;">
+      Escríbenos y cuéntanos tu proyecto. Estamos deseando escucharte.
+    </h3>
+
+    <div class="container">
+      <form action="../backend/enviar-contacto.php" method="POST">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+
+            <div class="mb-3">
+              <label for="nombre" class="form-label text-warning">Nombre</label>
+              <input type="text" class="form-control bg-dark text-light border-secondary" id="nombre" name="nombre"
+                required>
+            </div>
+
+            <div class="mb-3">
+              <label for="email" class="form-label text-warning">Email</label>
+              <input type="email" class="form-control bg-dark text-light border-secondary" id="email" name="email"
+                required>
+            </div>
+
+            <div class="mb-3">
+              <label for="asunto" class="form-label text-warning">Asunto</label>
+              <input type="text" class="form-control bg-dark text-light border-secondary" id="asunto" name="asunto"
+                required>
+            </div>
+
+            <div class="mb-4">
+              <label for="mensaje" class="form-label text-warning">Mensaje</label>
+              <textarea class="form-control bg-dark text-light border-secondary" id="mensaje" name="mensaje" rows="5"
+                required></textarea>
+            </div>
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-custom px-4">Enviar</button>
+            </div>
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="text-center mt-5 pt-4 pb-5" style="background-color: #0e0806; color: #aaa;">
+    <div class="container">
+
+      <!-- Redes sociales -->
+      <div class="mb-3">
+        <span class="text-light me-2">¡Síguenos!</span><br>
+        <a href="https://instagram.com/phonographystudio" target="_blank" class="text-warning fs-4">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+
+      <!-- Dirección y teléfono -->
+      <div class="mb-3">
+        <p class="mb-1">Carrer Cavallers, 16, 1D</p>
+        <p class="mb-1">12001 Castelló de la Plana, Castelló</p>
+        <p class="mb-1">Tel: <a href="tel:+34645969595" class="text-warning">645 969 595</a></p>
+      </div>
+
+      <!-- Mapa embebido -->
+      <div class="mb-3 d-flex justify-content-center">
+        <iframe src="https://www.google.com/maps?q=Carrer+Cavallers+16+Castelló&output=embed" width="100%" height="200"
+          style="border:0; max-width: 600px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+      <p class="mt-4 mb-0">© 2025 Phonography Studio - Todos los derechos reservados</p>
+    </div>
+    <div class="mt-3 small">
+      <a href="aviso-legal.html" class="text-decoration-none" style="color: #fae2b8;">Aviso legal</a>
+      <span class="mx-2" style="color: #fae2b8;">|</span>
+      <a href="politica-privacidad.html" class="text-decoration-none" style="color: #fae2b8;">Política de privacidad</a>
+      <span class="mx-2" style="color: #fae2b8;">|</span>
+      <a href="cookies.html" class="text-decoration-none" style="color: #fae2b8;">Política de cookies</a>
+    </div>
+
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+# Activar URL Rewriting
+RewriteEngine On
+
+# Forzar HTTPS (si el servidor tiene SSL activo)
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Redirigir automáticamente a /frontend/
+RewriteCond %{REQUEST_URI} !^/frontend/
+RewriteRule ^$ /frontend/index.html [L]
+
+# Opcional: quitar .php de las URL (avanzado)
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}\.php -f
+# RewriteRule ^(.*)$ $1.php [NC,L]
