@@ -127,7 +127,7 @@ if (!$conexion->connect_error) {
 <body>
   <!-- Cerrar sesión arriba derecha -->
   <div class="logout">
-    <a href="../backend/logout.php" class="btn btn-sm btn-custom">Cerrar sesión</a>
+    <a href="backend/logout.php" class="btn btn-sm btn-custom">Cerrar sesión</a>
   </div>
 
   <div class="container">
@@ -142,7 +142,7 @@ if (!$conexion->connect_error) {
     <!-- Formulario reserva -->
     <div class="mt-4 mb-4">
       <h4 class="text-center mb-3">Reservar el estudio</h4>
-      <form id="form-reserva" action="../backend/crear-reserva.php" method="POST" class="d-flex flex-column align-items-center gap-3">
+      <form id="form-reserva" action="backend/crear-reserva.php" method="POST" class="d-flex flex-column align-items-center gap-3">
         <input type="date" name="fecha" class="form-control w-50" required>
         <select name="id_servicio" class="form-select w-50" required>
           <option value="">Selecciona un servicio</option>

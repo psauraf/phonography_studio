@@ -33,7 +33,7 @@ if ($resultado->num_rows > 0) {
     if (password_verify($password, $usuario['password'])) {
         $_SESSION['usuario'] = $usuario['nombre'];
         $_SESSION['id_usuario'] = $usuario['id'];
-        header("Location: ../frontend/perfil.php");
+        header("Location: ../perfil.php");
         exit();
     } else {
         echo "⚠️ Contraseña incorrecta.";
@@ -44,4 +44,3 @@ if ($resultado->num_rows > 0) {
 
 $stmt->close();
 $conexion->close();
-?>

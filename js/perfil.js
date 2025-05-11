@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Función para cargar reservas
   function cargarReservas() {
-    fetch('../backend/reservas.php')
+    fetch('backend/reservas.php')
       .then(response => response.json())
       .then(data => {
         const contenedor = document.getElementById('lista-reservas');
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // Eliminar reserva con confirmación
   function eliminarReserva(id) {
     if (confirm("¿Estás seguro que deseas eliminar esta reserva?")) {
-      fetch(`../backend/eliminar-reserva.php?id=${id}`, { method: 'GET' })
+      fetch(`backend/eliminar-reserva.php?id=${id}`, { method: 'GET' })
         .then(res => {
           if (res.ok) {
             mostrarSnackbar("Reserva eliminada");

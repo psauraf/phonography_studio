@@ -17,25 +17,24 @@ Phonography Studio es un proyecto de desarrollo web para un estudio de grabació
 
 ```
 phonographystudio/
-   ├── frontend/
-   │   ├── index.html
-   │   ├── login.html
-   │   ├── perfil.php
-   │   ├── aviso-legal.html
-   │   ├── política-privacidad.html
-   │   ├── cookies.html
-   │   ├── assets/
-   │   │   ├── logo_typ.png
-   │   │   ├── logo.png
-   │   │   ├── fotos-carrusel/
-   │   │   ├── mockups/
-   │   │   └── videos/
-   │   ├── css/
-   │   │   └── estilos.css
-   │   └── js/
-   │       ├── app.js
-   │       ├── perfil.js
-   │       └── script.js
+   ├── index.html
+   ├── login.html
+   ├── perfil.php
+   ├── aviso-legal.html
+   ├── política-privacidad.html
+   ├── cookies.html
+   ├── assets/
+   │   ├── logo_typ.png
+   │   ├── logo.png
+   │   ├── fotos-carrusel/
+   │   ├── mockups/
+   │   └── videos/
+   ├── css/
+   │   └── estilos.css
+   ├── js/
+   │   ├── app.js
+   │   ├── perfil.js
+   │   └── script.js
    ├── db/
    │   └── init.sql
    └── backend/
@@ -65,13 +64,13 @@ phonographystudio/
 git clone https://github.com/psauraf/phonography_studio
 ```
 
-2. Importar la base de datos desde el archivo `init.sql` en phpMyAdmin.
+2. Importar la base de datos desde el archivo `db/init.sql` en phpMyAdmin.
 
 3. Configurar la conexión a la base de datos en `backend/config.php`.
 
 4. Ejecutar el proyecto a través de un servidor local como XAMPP.
 
-5. Acceder al sitio mediante la URL: `https://localhost/phonographystudio/frontend/index.html`
+5. Acceder al sitio mediante la URL: `http://localhost/phonographystudio/index.html`
 
 ## Información Adicional
 

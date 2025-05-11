@@ -2,7 +2,7 @@
 session_start();
 
 if (!isset($_SESSION['id_usuario'])) {
-  header("Location: ../frontend/login.html");
+  header("Location: login.html");
   exit();
 }
 
@@ -23,6 +23,6 @@ $stmt->execute();
 $stmt->close();
 $conexion->close();
 
-header("Location: ../frontend/perfil.php");
+header("Location: ../perfil.php");
 exit();
 ?>
